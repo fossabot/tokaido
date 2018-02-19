@@ -1,0 +1,22 @@
+{
+  "name": "tokaido",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdeabreu/tokaido.git"
+  },
+  "author": "Matthew DeAbreu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdeabreu/tokaido/issues"
+  },
+  "homepage": "https://github.com/mdeabreu/tokaido#readme",
+  "dependencies": {
+    "koa": "^2.5.0"
+  }
+}
