@@ -4,8 +4,8 @@
   "description": "A relaxing journey through Japan",
   "scripts": {
     "start": "node index.js",
-    "test": "./node_modules/.bin/mocha src --recursive",
-    "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- src --recursive && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls && rm -rf ./coverage"
+    "test": "mocha src --recursive",
+    "coveralls": "istanbul cover _mocha --report lcovonly -- src --recursive && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
