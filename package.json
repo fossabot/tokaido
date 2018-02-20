@@ -1,7 +1,7 @@
 {
   "name": "tokaido",
   "version": "1.0.0",
-  "description": "",
+  "description": "A relaxing journey through Japan",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
